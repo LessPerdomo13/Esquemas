@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    .cuadroGrande {
+      position: relative;
+        width: 200px;
+        height: 200px;
+        margin-left: 300px;
+        margin-top: 50px
+    }
+    #rosa {
+        background: pink;
+    }
+    #morado {
+      position: absolute;
+      background: purple;
+        height: 100px;
+        width: 100px;
+        left: 50px;
+        top: 50px;
+    }
+    #amarillo {
+        background: yellow;
+        height: 50px;
+        width: 50px;
+    }
+    #azul {
+        background: blue;
+    }
+    #negro {
+        background: black;
+        height: 50px;
+        width: 50px;
+    }
+    #verde {
+      position: absolute;
+      background: green;
+        height: 100px;
+        width: 100px;
+        left: 50px;
+        top: 50px;
+
+      }
+
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+    <title> Esquemas </title>
+  </head>
+  <body>
+    <div class="cuadroGrande" id="rosa">
+        <div id="morado">
+            <div id="amarillo"></div>
+        </div>
+    </div>
+    <div class="cuadroGrande" id="azul">
+        <div id="negro"></div>
+        <div id="verde"></div>
+    </div>
+  </body>
+</html>
